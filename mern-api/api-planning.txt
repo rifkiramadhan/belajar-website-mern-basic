@@ -1,14 +1,14 @@
 ## Standar API
-  [METHOD] : {root.api}/{version}/{grouping}/{endpoint}
+  [METHOD]: {root.api}/{version}/{grouping}/{endpoint}
   SAMPLE: 
-  [POST] : http://mern-api.kabayancoding.com/v1/auth/login
+  [POST]: http://mern-api.kabayancoding.com/v1/auth/login
 
 ==============================================================================================
 
 ## Standar Status Response
   [1] - 200 - OK                        --> Call API Success.
   [2] - 201 - CREATED                   --> Post Success.
-  [3] - 400 - BAD REQUEST               --> Error on Client Side (Bisa input yang salah dll)/
+  [3] - 400 - BAD REQUEST               --> Error on Client Side (Bisa input yang salah dll).
   [4] - 401 - UNATHORIZED               --> User not authorized to the request.
   [5] - 403 - FORBIDDEN                 --> User not allowed to access.
   [6] - 404 - NOT FOUND                 --> Request Endpoint Not Found.
@@ -19,12 +19,12 @@
 
 ## GROUP: Authentication
   [1] - Register
-    [POST] : {root.api}/{version}/auth/register
+    [POST]: {root.api}/{version}/auth/register
     - req:
       {
           "name": "Testing",
           "email": "test@gmail.com",
-          "password": "123123
+          "password": "123123"
       }
     - res:
       {
@@ -33,7 +33,7 @@
               "id": 1,
               "name": "Testing",
               "email": "test@gmail.com",
-              "password": "123123
+              "password": "123123"
           }
       }
     - err-response:
@@ -51,7 +51,7 @@
 
 ## GROUP: Blog
   [1] - Create Blog Post
-  [POST] : {root.api}/{version}/blog/post
+  [POST]: {root.api}/{version}/blog/post
   - req:
     {
         "title": "Title Blog",

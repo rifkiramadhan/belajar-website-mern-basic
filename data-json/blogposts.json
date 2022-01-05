@@ -1,0 +1,27 @@
+{
+    "_id": {
+        "$oid": "61d564ddd3eee5f4d287a71a"
+    },
+    "title": "Blog Test 1",
+    "body": "Test 1",
+    "image": "images\\1641374889028-clark-tibbs-oqStl2L5oxI-unsplash.jpg",
+    "author": {
+        "uid": {
+            "$numberInt": "1"
+        },
+        "name": "Rifki Ramadhan"
+    },
+    "createdAt": {
+        "$date": {
+            "$numberLong": "1641374889065"
+        }
+    },
+    "updatedAt": {
+        "$date": {
+            "$numberLong": "1641374889065"
+        }
+    },
+    "__v": {
+        "$numberInt": "0"
+    }
+}
